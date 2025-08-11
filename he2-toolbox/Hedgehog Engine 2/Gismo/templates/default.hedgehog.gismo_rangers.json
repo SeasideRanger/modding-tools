@@ -1,0 +1,365 @@
+{
+  "Design": {
+    "RangeIn": 1000.0,
+    "RangeDistance": 200.0,
+    "BasicParameters": {
+      "ModelName": "{model_name}",
+      "SkeletonName": "{model_name}",
+      "NoInstance": false
+    },
+    "Collision": {
+      "Shape": "Mesh",
+      "BasePoint": "YPlane",
+      "Size": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "Mesh": "{model_name}",
+      "ShapeOffset": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "ShapeSizeOffset": 0.0
+    },
+    "RigidBody": {
+      "Type": "Static",
+      "Material": "None",
+      "PhysicsParam": {
+        "Mass": 1.0,
+        "Friction": 0.5,
+        "GravityFactor": 1.0,
+        "Restitution": 0.4,
+        "LinearDamping": 0.0,
+        "AngularDamping": 0.05,
+        "MaxLinearVelocity": 200.0
+      }
+    },
+    "ReactionIdle": {
+      "Motion": {
+        "MotionName": null,
+        "SyncFrame": true,
+        "StopEndFrame": false
+      },
+      "MirageAnimations": {
+        "TexSrtAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "TexPatAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "MatAnimNames": [
+          null,
+          null,
+          null
+        ]
+      },
+      "ProgramMotion": {
+        "Type": "Swing",
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Power": 0.0,
+        "SpeedScale": 1.0,
+        "Time": 0.0
+      },
+      "Effect": {
+        "EffectName": null,
+        "LinkMotionStop": false
+      },
+      "SoundCue": null,
+      "Kill": {
+        "Type": "None",
+        "KillTime": 0.0,
+        "BreakMotionName": null,
+        "Debris": {
+          "Gravity": 10.0,
+          "LifeTime": 30.0,
+          "Mass": 1.0,
+          "Friction": 0.3,
+          "ExplosionScale": 0.3,
+          "ImpulseScale": 0.5
+        }
+      }
+    },
+    "ReactionEnter": {
+      "Motion": {
+        "MotionName": null,
+        "SyncFrame": true,
+        "StopEndFrame": false
+      },
+      "MirageAnimations": {
+        "TexSrtAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "TexPatAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "MatAnimNames": [
+          null,
+          null,
+          null
+        ]
+      },
+      "ProgramMotion": {
+        "Type": "Swing",
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Power": 0.0,
+        "SpeedScale": 1.0,
+        "Time": 0.0
+      },
+      "Effect": {
+        "EffectName": null,
+        "LinkMotionStop": false
+      },
+      "SoundCue": null,
+      "Kill": {
+        "Type": "None",
+        "KillTime": 0.0,
+        "BreakMotionName": null,
+        "Debris": {
+          "Gravity": 10.0,
+          "LifeTime": 30.0,
+          "Mass": 1.0,
+          "Friction": 0.3,
+          "ExplosionScale": 0.3,
+          "ImpulseScale": 0.5
+        }
+      }
+    },
+    "ReactionLeave": {
+      "Motion": {
+        "MotionName": null,
+        "SyncFrame": true,
+        "StopEndFrame": false
+      },
+      "MirageAnimations": {
+        "TexSrtAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "TexPatAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "MatAnimNames": [
+          null,
+          null,
+          null
+        ]
+      },
+      "ProgramMotion": {
+        "Type": "Swing",
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Power": 0.0,
+        "SpeedScale": 1.0,
+        "Time": 0.0
+      },
+      "Effect": {
+        "EffectName": null,
+        "LinkMotionStop": false
+      },
+      "SoundCue": null,
+      "Kill": {
+        "Type": "None",
+        "KillTime": 0.0,
+        "BreakMotionName": null,
+        "Debris": {
+          "Gravity": 10.0,
+          "LifeTime": 30.0,
+          "Mass": 1.0,
+          "Friction": 0.3,
+          "ExplosionScale": 0.3,
+          "ImpulseScale": 0.5
+        }
+      }
+    },
+    "ReactionStay": {
+      "Motion": {
+        "MotionName": null,
+        "SyncFrame": true,
+        "StopEndFrame": false
+      },
+      "MirageAnimations": {
+        "TexSrtAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "TexPatAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "MatAnimNames": [
+          null,
+          null,
+          null
+        ]
+      },
+      "ProgramMotion": {
+        "Type": "Swing",
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Power": 0.0,
+        "SpeedScale": 1.0,
+        "Time": 0.0
+      },
+      "Effect": {
+        "EffectName": null,
+        "LinkMotionStop": false
+      },
+      "SoundCue": null,
+      "Kill": {
+        "Type": "None",
+        "KillTime": 0.0,
+        "BreakMotionName": null,
+        "Debris": {
+          "Gravity": 10.0,
+          "LifeTime": 30.0,
+          "Mass": 1.0,
+          "Friction": 0.3,
+          "ExplosionScale": 0.3,
+          "ImpulseScale": 0.5
+        }
+      }
+    },
+    "ReactionStayMove": {
+      "Motion": {
+        "MotionName": null,
+        "SyncFrame": true,
+        "StopEndFrame": false
+      },
+      "MirageAnimations": {
+        "TexSrtAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "TexPatAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "MatAnimNames": [
+          null,
+          null,
+          null
+        ]
+      },
+      "ProgramMotion": {
+        "Type": "Swing",
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Power": 0.0,
+        "SpeedScale": 1.0,
+        "Time": 0.0
+      },
+      "Effect": {
+        "EffectName": null,
+        "LinkMotionStop": false
+      },
+      "SoundCue": null,
+      "Kill": {
+        "Type": "None",
+        "KillTime": 0.0,
+        "BreakMotionName": null,
+        "Debris": {
+          "Gravity": 10.0,
+          "LifeTime": 30.0,
+          "Mass": 1.0,
+          "Friction": 0.3,
+          "ExplosionScale": 0.3,
+          "ImpulseScale": 0.5
+        }
+      }
+    },
+    "ReactionDamage": {
+      "Motion": {
+        "MotionName": null,
+        "SyncFrame": true,
+        "StopEndFrame": false
+      },
+      "MirageAnimations": {
+        "TexSrtAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "TexPatAnimNames": [
+          null,
+          null,
+          null
+        ],
+        "MatAnimNames": [
+          null,
+          null,
+          null
+        ]
+      },
+      "ProgramMotion": {
+        "Type": "Swing",
+        "Axis": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Power": 0.0,
+        "SpeedScale": 1.0,
+        "Time": 0.0
+      },
+      "Effect": {
+        "EffectName": null,
+        "LinkMotionStop": false
+      },
+      "SoundCue": null,
+      "Kill": {
+        "Type": "None",
+        "KillTime": 0.0,
+        "BreakMotionName": null,
+        "Debris": {
+          "Gravity": 10.0,
+          "LifeTime": 30.0,
+          "Mass": 1.0,
+          "Friction": 0.3,
+          "ExplosionScale": 0.3,
+          "ImpulseScale": 0.5
+        }
+      }
+    },
+    "IgnoreMeteorShowerAndRespawnOnReenterRange": false
+  },
+  "Plan": {
+    "ContactDamageType": "None",
+    "NoneDamageSpin": true,
+    "RideOnDamage": false,
+    "AerialBounce": true
+  }
+}
